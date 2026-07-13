@@ -42,11 +42,9 @@ function App() {
   return (
     
     <div className='flex flex-col items-center justify-center gap-8 p-4 h-screen'>
-      <h1 className='flex justify-center align-middle gap-4'>
-        <span>
-          Travel.com
-        </span>
-        <Plane />
+      <Plane size={48} className='text-cyan-600'/>
+      <h1 className='justify-center align-middle gap-4'>
+        Travel.com
       </h1>
       <p>Invite your friends and plan your next trip!</p>
       <div className='flex flex-col gap-4'>
@@ -89,7 +87,7 @@ function App() {
               </div>
               <button 
                 onClick={() => setShowDialog(!showDialog)}
-                className='cursor-pointer flex gap-1 items-center bg-cyan-600 hover:bg-cyan-500 duration-200 text-white py-3 px-4 font-bold tracking-tight rounded-sm'>
+                className='cursor-pointer flex gap-1 items-center bg-₢hover:bg-cyan-500 duration-200 text-white py-3 px-4 font-bold tracking-tight rounded-sm'>
                 Confirm travel 
                 <ArrowRight size={16} />
               </button>
