@@ -1,6 +1,6 @@
 import './App.css'
 import { Plane, MapPin, ArrowLeft, ArrowRight, Calendar, UserRoundPlus, X, AtSign, Plus } from 'lucide-react'
-import { FormEvent, useState} from "react"
+import { useState} from "react"
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
 
   const [emailsListInvite, setEmailsListInvite] = useState<string[]>([])
 
-  function addNewEmailToInvite(event: FormEvent<HTMLFormElement>) {
+  function addNewEmailToInvite(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const data = new FormData(event.currentTarget)
