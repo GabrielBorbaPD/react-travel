@@ -1,5 +1,5 @@
 import './App.css'
-import { Plane, MapPin, ArrowLeft, ArrowRight, Calendar, UserRoundPlus, Settings2, X, AtSign, Plus } from 'lucide-react'
+import { Plane, MapPin, ArrowLeft, ArrowRight, Calendar, UserRoundPlus, X, AtSign, Plus } from 'lucide-react'
 import { FormEvent, useState} from "react"
 
 function App() {
