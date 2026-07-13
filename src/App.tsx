@@ -43,7 +43,7 @@ function App() {
     
     <div className='flex flex-col items-center justify-center gap-8 p-4 h-screen'>
       <Plane size={48} className='text-cyan-600'/>
-      <h1 className='justify-center align-middle gap-4'>
+      <h1>
         Travel.com
       </h1>
       <p>Invite your friends and plan your next trip!</p>
